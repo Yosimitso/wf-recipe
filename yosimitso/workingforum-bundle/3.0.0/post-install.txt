@@ -1,0 +1,17 @@
+<fg=blue>Yosimitso\WorkingforumBundle</>
+To finish installation of this bundle,
+1. please update your database schema :
+Get SQL queries needed with :
+php bin/console doctrine:schema:update --dump-sql
+
+Then if SQL queries look OK, run :
+php bin/console doctrine:schema:update --force
+
+2. Modify "site_title" parameter in config/packages/yosimitso_working_forum.yaml
+
+3. If you want to enable file upload, check SETUP-SF4.md
+
+For further information visit
+<comment>https://github.com/Yosimitso/WorkingForumBundle</>
+
+if you have errors please see COMMON-ISSUE.md on the above repository, if you can't figured out a solution, join us on https://gitter.im/WorkingForumBundle/Lobby
